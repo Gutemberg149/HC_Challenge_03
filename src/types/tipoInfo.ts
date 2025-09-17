@@ -5,6 +5,8 @@ export type TipoInfo1 = {
   text2:string;
   img1:string;
   img2:string;
+  alt1:string;
+  alt2:string;
 } 
 
 export type TipoInfo2 = {
@@ -22,6 +24,12 @@ export type TipoInfo2 = {
   img4:string;
   img5:string;
   img6:string;
+  alt1:string;
+  alt2:string;
+  alt3:string;
+  alt4:string;
+  alt5:string;
+  alt6:string;
 } 
 
 export type TipoInfo3 = {
@@ -29,6 +37,7 @@ export type TipoInfo3 = {
   title:string;
   text1:string;
   img1:string;
+  alt1:string;
 } 
 
 
@@ -43,4 +52,8 @@ export type TipoInfo4 = {
   img2:string;
   img3:string;
   img4:string;
+  alt1:string;
+  alt2:string;
+  alt3:string;
+  alt4:string;
 } 

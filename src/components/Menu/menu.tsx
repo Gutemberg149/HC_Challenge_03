@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/img/logo.png"
 export default function Menu() {
   return (
-    <nav className="bg-blue-100 text-blue-950 h-auto md:h-[10vh] flex items-center justify-center rounded-b-xl w-full md:w-[80vw] font-bold">
-      <ul className="block md:flex h-[100%] w-[100%] items-center justify-around space-x-2 lg:space-x-6">
+    <nav className="bg-blue-100 text-blue-950 h-auto md:h-[10vh] flex items-center justify-center rounded-b-xl w-[100vw] md:w-[80vw] font-bold ">
+      <ul className="flex h-[100%] w-[100%] items-center justify-around space-x-2 lg:space-x-6 sm:space-x-0 ">
         <img src={logo} alt=""  className="w-[100px]"/>
         <Link to="/" className="px-3 py-2 lg:px-4 lg:py-2 hover:bg-amber-50 rounded-lg transition-colors duration-200" >
           Home
