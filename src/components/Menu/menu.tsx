@@ -9,7 +9,7 @@ export default function Menu() {
           Home
         </Link>
         <Link
-          to="/produtos"className="px-3 py-2 lg:px-4 lg:py-2 hover:bg-amber-50 rounded-lg transition-colors duration-200" >
+          to="/faq"className="px-3 py-2 lg:px-4 lg:py-2 hover:bg-amber-50 rounded-lg transition-colors duration-200" >
           FAQ
         </Link>
         <Link
