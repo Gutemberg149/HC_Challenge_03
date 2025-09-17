@@ -6,6 +6,6 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 70vh;
+  min-height: 85vh;
   background-color: white;
 }
