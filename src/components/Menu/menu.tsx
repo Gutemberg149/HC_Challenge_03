@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import logo from "../../img/logo.png"
+import logo from "../../assets/img/logo.png"
 export default function Menu() {
   return (
     <nav className="bg-blue-100 text-blue-950 h-auto md:h-[10vh] flex items-center justify-center rounded-b-xl w-full md:w-[80vw] font-bold">
