@@ -3,7 +3,6 @@ import banner from "../../assets/img/banner01.jpg"
 
 import {Info1,Info2,Info3,Info4,Info5,Info6,Info7,Info8} from "../../Data/listaInfo"
 import type {TipoInfo1,TipoInfo2,TipoInfo3,TipoInfo4} from "../../types/tipoInfo"
-// import TutorialBox from "../../components/TutorialBox/Tutoriallbox";
 
 
 
@@ -32,7 +31,7 @@ export default function Home(){
 
     return(
         <main >
-            <h1 className="font-bold text-[15px] md:text-2xl lg:text-3xl mb-5 text-blue-950 py-2">Hospital Das Clinicas - Tutorial de Consulta Online</h1>
+            <h1 className="font-bold text-[15px] md:text-2xl lg:text-3xl mb-5 text-blue-950 py-2 text-center">Hospital Das Clinicas - Tutorial de Consulta Online</h1>
 
             <div className="w-[100vw] flex align-center justify-center h-[400px] overflow-hidden relative">
                 <img src={banner} alt="" className="w-[80%]"/>

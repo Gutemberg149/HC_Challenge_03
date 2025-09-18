@@ -57,3 +57,10 @@ export type TipoInfo4 = {
   alt3:string;
   alt4:string;
 } 
+
+export type TipoPaciente={
+  id:number,
+  nome:string,
+  idade:number,
+  img:string
+}

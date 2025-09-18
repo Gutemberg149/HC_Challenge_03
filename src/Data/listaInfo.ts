@@ -1,4 +1,4 @@
-import type  {TipoInfo1,TipoInfo2,TipoInfo3,TipoInfo4}  from "../types/tipoInfo";
+import type  {TipoInfo1,TipoInfo2,TipoInfo3,TipoInfo4,TipoPaciente}  from "../types/tipoInfo";
 import img1 from "../assets/img/imgHome/acessar01.png"
 import img2 from "../assets/img/imgHome/cadastrarsenha.png"
 import img3 from "../assets/img/imgHome/cadastrarsenha2.png"
@@ -20,6 +20,13 @@ import img18 from "../assets/img/imgHome/teleconsulta09.png"
 import img19 from "../assets/img/imgHome/teleconsulta10.png"
 import img20 from "../assets/img/imgHome/teleconsulta11.png"
 import img21 from "../assets/img/imgHome/teleconsulta12.png"
+import andre from "../assets/img/pacientes/paciente01.jpg"
+import marta from "../assets/img/pacientes/paciente02.jpg"
+import jean from "../assets/img/pacientes/paciente03.jpg"
+import cleir from "../assets/img/pacientes/paciente4.jpg"
+import aphoson from "../assets/img/pacientes/paciente5.jpg"
+import mcLoirJean from "../assets/img/pacientes/paciente6.jpg"
+import janaina from "../assets/img/pacientes/paciente7.jpg"
 
 export const Info1:TipoInfo1[]= [
     {"id":1,"title":'CADASTRAR UMA SENHA',
@@ -124,3 +131,48 @@ export const Info8:TipoInfo4[]= [
         "alt4":"Imagem mostra paciente conectado.",
     },
 ]; 
+
+export const PacientesData:TipoPaciente[]=[
+    {
+        "id":0,
+        "nome":"Andre",
+        "idade":35,
+        "img":andre
+    },
+    {
+        "id":1,
+        "nome":"Marta",
+        "idade":95,
+        "img":marta
+    },
+    {
+        "id":2,
+        "nome":"Jean",
+        "idade":48,
+        "img":jean
+    },
+    {
+        "id":3,
+        "nome":"Clair",
+        "idade":77,
+        "img":cleir
+    },
+    {
+        "id":4,
+        "nome":"Aphoson",
+        "idade":77,
+        "img":aphoson
+    },
+    {
+        "id":5,
+        "nome":"Mc'LoirJean",
+        "idade":35,
+        "img":mcLoirJean
+    },
+    {
+        "id":6,
+        "nome":"Janaina",
+        "idade":26,
+        "img":janaina
+    },
+]
