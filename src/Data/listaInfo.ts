@@ -1,4 +1,4 @@
-import type  {TipoInfo1,TipoInfo2,TipoInfo3,TipoInfo4,TipoPaciente}  from "../types/tipoInfo";
+import type  {TipoPaciente,TipoInfoAll}  from "../types/tipoInfo";
 import img1 from "../assets/img/imgHome/acessar01.png"
 import img2 from "../assets/img/imgHome/cadastrarsenha.png"
 import img3 from "../assets/img/imgHome/cadastrarsenha2.png"
@@ -28,8 +28,10 @@ import aphoson from "../assets/img/pacientes/paciente5.jpg"
 import mcLoirJean from "../assets/img/pacientes/paciente6.jpg"
 import janaina from "../assets/img/pacientes/paciente7.jpg"
 
-export const Info1:TipoInfo1[]= [
-    {"id":1,"title":'CADASTRAR UMA SENHA',
+
+export const InfotTutorial:TipoInfoAll[]=[
+     {"id":1,
+        "title":'CADASTRAR UMA SENHA',
         "text1":"Antes do primeiro acesso do portal do paciente é necessário cadastrar uma senha. Clique no botão cadastrar senha.",
         "text2":"Na tela seguinte digite somente os números de seu cpf (cadastro de pessoa física) e data de nascimento nos campos.",
         "img1":img2,
@@ -37,9 +39,8 @@ export const Info1:TipoInfo1[]= [
         "alt1":"Imagem mostrar onde cadastrar senha ",
         "alt2":"Imagem mostra onde digitar o cpf"
     },
-]; 
-export const Info2:TipoInfo2[]= [
-    {"id":1,"title":'COMO CRIAR CONTA',
+     {"id":2,
+        "title":'COMO CRIAR CONTA',
         "text1":"Digite o cpf e a data de nascimento do paciente e o portal fará busca nos dados do hc e exibirá na tela, o nome do paciente/cpf e data de nascimento encontrado.",
         "text2":"Caso você não seja o paciente localizado, clique em “alterar paciente” para retornar à tela anterior e realizar uma nova busca.",
         "text3":"Se o paciente estiver correto, digite e confirme seu e-mail e celular.",
@@ -60,19 +61,15 @@ export const Info2:TipoInfo2[]= [
         "alt6":"Imagem mostra onde clicar quando tiver tudo preenchido."
       
     },
-]; 
-
-export const Info3:TipoInfo3[]= [
-    {"id":1,"title":'COMO ACESSAR SUA CONTA',
+     {"id":3,
+        "title":'COMO ACESSAR SUA CONTA',
         "text1":"Após ter realizado o cadastro, para acessar a conta do paciente, digite o cpf e senha e clique em acessar.",
         "img1":img1,
          "alt1":"Imagem mostra como digitar o cpf para fazer o acesso.",
         
     },
-]; 
-
-export const Info4:TipoInfo1[]= [
-    {"id":1,"title":'ABRINDO UMA TELE CONSULTA',
+     {"id":4,
+        "title":'ABRINDO UMA TELE CONSULTA',
         "text1":"Após ter realizado o cadastro, para acessar a conta do paciente, digite o cpf e senha e clique em acessar.",
         "text2":"Ao abrir o menu todas as opções do aplicativo serão listadas. Para entrar na teleconsulta, no menu, clique na opção teleconsulta conforme imagem ao lado",
         "img1":img10,
@@ -80,10 +77,8 @@ export const Info4:TipoInfo1[]= [
         "alt1":"Imagem mostra como fazer o primeiro acesso",
         "alt2":"Imagem mostra o menu de todas opções lstadas.",
     },
-]; 
-
-export const Info5:TipoInfo1[]= [
-    {"id":1,"title":'TERMO DE CONSENTIMENTO',
+     {"id":5,
+        "title":'TERMO DE CONSENTIMENTO',
         "text1":"Leia o termo e mais abaixo clique na caixa de seleção “eu estou ciente dos termos acima” e clique no botão aceito. caso o paciente clique no botão não aceito a teleconsulta não será aberta. É possível visualizar o termo e aceitá-lo ao clicar novamente na agenda de teleconsulta.",
         "text2":"Após aceitar o termo uma mensagem será exibida confirmando a ação:",
         "img1":img12,
@@ -91,10 +86,8 @@ export const Info5:TipoInfo1[]= [
         "alt1":"Imagem mostra o termo para ser lido.",
         "alt2":"Imagem mostra a mensagem de confirmação.",
     },
-]; 
-
-export const Info6:TipoInfo1[]= [
-    {"id":1,"title":'ENTRANDO NA TELECONSULTA',
+      {"id":6,
+        "title":'ENTRANDO NA TELECONSULTA',
         "text1":"A agenda será aberta na tela. Clique no botão azul entrar na teleconsulta.",
         "text2":"Caso você tenha mais de um navegador instalado, selecione o google chrome:",
         "img1":img14,
@@ -102,10 +95,8 @@ export const Info6:TipoInfo1[]= [
         "alt1":"Imagem mostra A genda aberta na tela.",
         "alt2":"Imagem de como acessar o google chrome.",
     },
-]; 
-
-export const Info7:TipoInfo1[]= [
-    {"id":1,"title":'HABILITANDO O MICROFONE',
+    {"id":7,
+        "title":'HABILITANDO O MICROFONE',
         "text1":"Na sequência, um teste de áudio é exibido; fale algumas palavras ao microfone e clique em sim se conseguir escutar o som.",
         "text2":"Aguarde o teste de áudio e clique em sim:(botão verde)...",
         "img1":img16,
@@ -113,10 +104,8 @@ export const Info7:TipoInfo1[]= [
         "alt1":"Imagem mostra teste d eaudio.",
         "alt2":"Imagem mostra botão verde a ser clicado.",
     },
-]; 
-
-export const Info8:TipoInfo4[]= [
-    {"id":1,"title":'HABILITANDO A CÂMERA',
+      {"id":8,
+        "title":'HABILITANDO A CÂMERA',
         "text1":"Ao entrar na sala de teleconsulta você precisa habilitar a câmera. Para habilitar a câmera, clique no ícone ao lado:",
         "text2":"O navegador irá solicitar acesso à câmera. clique em permitir, para habilitar a câmera do seu celular.",
         "text3":"A imagem da câmera será exibida. confirme clicando em iniciar compartilhamento.",
@@ -131,6 +120,7 @@ export const Info8:TipoInfo4[]= [
         "alt4":"Imagem mostra paciente conectado.",
     },
 ]; 
+
 
 export const PacientesData:TipoPaciente[]=[
     {
