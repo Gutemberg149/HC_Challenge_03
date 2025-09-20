@@ -1,69 +1,56 @@
-# React + TypeScript + Vite
+# Hospital das Clínicas - Tutorial de Consulta Online
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um portal para pacientes do Hospital das Clínicas aprenderem a fazer consultas online, com tutorial de como realizar as consultas, FAQ, contato e informações dos integrantes de desenvolvedores.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Funcionalidades
 
-## Expanding the ESLint configuration
+- **Home:** Tutorial passo a passo com imagens para ajudar no uso do portal.
+- **Pacientes:** Lista de pacientes com nome, idade e foto. Permite ver detalhes de cada paciente.
+- **FAQ:** Perguntas frequentes com respostas que podem ser expandidas.
+- **Integrantes:** Informações dos membros do time com links para LinkedIn e GitHub.
+- **Contato:** Formulário para enviar dúvidas e sugestões, com validação e mensagem de sucesso.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Tecnologias Utilizadas
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- React com TypeScript
+- React Router Dom para navegação
+- React Hook Form para formulários
+- Tailwind CSS para estilos
+- Vite como ambiente de desenvolvimento
+- React Icons para ícones
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Estrutura do Projeto
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- `src/`
+- `assets/` (imagens utilizadas no projeto)
+- `components/` (componentes reutilizáveis: cabeçalho, menu e rodapé)
+- `Data/` (dados estáticos usados no projeto)
+- `routes/` (páginas do sistema:Contato, Erro, Home, FAQ, Integrantes, PacienteInfo e Pacientes.)
+- `types/` (tipos TypeScript)
+- `global/` (estilização geral)
+- `App.tsx` (componente principal)
+- `global.css` (estilos globais)
+- `main.tsx` (ponto de entrada)
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+
+ ## Repositório:
+
+  GitHub: https://github.com/Gutemberg149/HC_Challenge_03
+
+
+## Link Vercel
+
+  https://hc-challenge-03.vercel.app
+
+
+ ## Integrantes
+
+  Gutemberg
+  RM: 562267
+  Turma: 1TDSSP
