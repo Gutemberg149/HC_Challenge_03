@@ -7,11 +7,11 @@ export default  function Integrante () {
 
     document.title = "Integrantes";
     return(
-    <div className="h-[600px] md:h-[100vh] lg:h-[95vh] xl:h-[700px] flex flex-col justify-center items-center ">
+    <div className="h-[100vh] flex flex-col justify-center items-center ">
          <h1 className="text-2xl2xl md:text-4xl text-blue-950 font-bold mb-8">integrantes</h1>
-         <div className=" bg-blue-50 flex flex-col justify-center items-center p-9 rounded-4xl" >
+         <div className="w-[1000px] bg-blue-50 flex flex-col justify-center items-center p-9 rounded-4xl" >
 
-            <div  className="w-[300px] bg-white flex flex-col justify-center items-center px-2 py-5 rounded-2xl shadow-lg">
+            <div  className="w-[300px] bg-white flex flex-col justify-center\ items-center px-2 py-5 rounded-2xl shadow-lg">
               <img src={Gutem} alt="foto do integrate Gutemberg" className="w-[200px] rounded-2xl"/>
               <div className="flex flex-col items-start w-[200px]">
               <p className="text-sm mt-3"><span className="font-bold text-[16px]">Nome:</span> Gutemberg</p>
