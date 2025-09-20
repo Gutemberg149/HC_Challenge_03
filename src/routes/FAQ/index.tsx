@@ -51,7 +51,7 @@ export default  function FAQ () {
     <div className="w-[100vw] mx-auto p-6 flex flex-col justify-between items-center bg-blue-50" >
 
       <div className="mb-8 text-center">
-        <h1 className="text-2xl md:text-3xl font-bold text-foreground mb-2 text-blue-950">Hospital Das Clínicas - FAQ</h1>
+        <h1 className="sm:textxl md:text-2xl gl:text-3xl font-bold text-foreground mb-2 text-blue-950">Hospital Das Clínicas - FAQ</h1>
       </div>
 
       <div className='w-[80vw] flex flex-col md:flex-col lg:flex-row justify-between items-center'>

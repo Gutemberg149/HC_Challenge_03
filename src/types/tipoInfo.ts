@@ -23,7 +23,6 @@ export type TipoInfoAll = {
 };
 
 
-
 export type TipoPaciente={
   id:number,
   nome:string,

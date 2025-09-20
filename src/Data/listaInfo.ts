@@ -27,6 +27,8 @@ import cleir from "../assets/img/pacientes/paciente4.jpg"
 import aphoson from "../assets/img/pacientes/paciente5.jpg"
 import mcLoirJean from "../assets/img/pacientes/paciente6.jpg"
 import janaina from "../assets/img/pacientes/paciente7.jpg"
+import huako from "../assets/img/pacientes/paciente8.jpg"
+import kandun from "../assets/img/pacientes/paciente9.jpg"
 
 
 export const InfotTutorial:TipoInfoAll[]=[
@@ -165,4 +167,17 @@ export const PacientesData:TipoPaciente[]=[
         "idade":26,
         "img":janaina
     },
+     {
+        "id":7,
+        "nome":"Huako",
+        "idade":33,
+        "img":huako
+    },
+     {
+        "id":8,
+        "nome":"Janaina",
+        "idade":22,
+        "img":kandun
+    },
+
 ]
