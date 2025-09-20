@@ -29,3 +29,7 @@ export type TipoPaciente={
   idade:number,
   img:string
 }
+
+export type TipoConato={
+  
+}

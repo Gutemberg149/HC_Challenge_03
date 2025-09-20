@@ -10,6 +10,7 @@ import FAQ from './routes/FAQ/index.tsx'
 import Integrante from './routes/Integrantes/index.tsx';
 import Pacientes from './routes/Pacientes/index.tsx';
 import PacienteInfo from './routes/PacienteInfo/index.tsx';
+import Contato from './routes/Contato/index.tsx';
 
 
 const router = createBrowserRouter([{
@@ -18,7 +19,8 @@ const router = createBrowserRouter([{
     {path:"/faq", element: <FAQ/>},
     {path:"/integrante", element: <Integrante/>},
     {path:"/pacientes", element: <Pacientes/>},
-    {path:"/pacienteinfo/:id", element: <PacienteInfo/>}
+    {path:"/pacienteinfo/:id", element: <PacienteInfo/>},
+    {path:"/contato", element: <Contato/>}
    ]
 }
 ]

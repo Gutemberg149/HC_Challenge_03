@@ -21,7 +21,7 @@ export default function Menu() {
           className="text-[10px] md:text-[17px]  px-1 py-2 lg:px-4 lg:py-2 hover:bg-white rounded-lg transition-colors duration-200" >
           Integrantes
         </Link>
-        <Link to="/card/produtos"className="text-[10px] md:text-[17px]  px-1 py-2 lg:px-4 lg:py-2 hover:bg-white rounded-lg transition-colors duration-200" >
+        <Link to="/contato"className="text-[10px] md:text-[17px]  px-1 py-2 lg:px-4 lg:py-2 hover:bg-white rounded-lg transition-colors duration-200" >
           Contato
         </Link>
       </ul>
